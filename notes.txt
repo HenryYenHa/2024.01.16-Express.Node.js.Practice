@@ -1,0 +1,33 @@
+0) Set up files
+1) npm init
+//Changing name 
+1.05) mkdir flippr
+1.5) cp -r flapper flippr
+1.55) cd flippr
+2) Grab boiler plate as an initial thing
+3) For imports, can't import outside of a module, so:"type":"module" in package.json
+4) If using express, gotta use "npm i express"
+
+In package.json:
+For dependencies:
+^ = up to version 4.18.X, not 4.19 and above
+~ = approximately that version 
+x.y.z: Z is small patches; Y = minor updates; X = a breaking change of the package
+
+rm -rf xxxxxx = forcefully remove xxxxx and all subfolders
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+package-lock.json is a list of all dependencies for npm to install quicker
+
+
+for postman, the body portion, if the 
