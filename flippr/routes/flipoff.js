@@ -1,7 +1,7 @@
 import express from "express";
 
 //DB connection
-// import { flipoffModel } from "../models/flipoffModel.js";
+import { flipoffModel } from "../models/flipoffModel.js";
 
 const router = express.Router();
 
